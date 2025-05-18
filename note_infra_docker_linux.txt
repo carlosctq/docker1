@@ -1,0 +1,53 @@
+=======Infra Linux e Docker=========
+
+-----Setup Docker-----
+
+1. Instalar o Docker:
+ 
+a. https://www.docker.com/products/docker-desktop/
+
+b. Products/DOcker Desktop/Download DOcker Desktop  
+
+
+2. Criar conta 
+
+usuario: carloscavalcante1
+
+loga com o e-mail carlos.cavalcante1
+
+---Setup pasta----
+
+
+pyenv local 3.12
+
+python --version
+
+poetry
+
+poetry init  (da enter em todas as opçoes)
+
+poetry env use 3.12.1
+
+poetry env info --path
+
+source "$(poetry env info --path)/Scripts/activate"   (ativando o ambiente virtual
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/carlosctq/infra_docker_linux.git
+git push -u origin main
+
+
+---Criar Streamlit
+
+poetry add streamlit
+
+
+
+
+
+
+
